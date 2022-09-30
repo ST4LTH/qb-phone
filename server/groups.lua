@@ -319,3 +319,18 @@ local function CreateGroup(src, name, password)
     TriggerClientEvent('qb-phone:client:RefreshGroupsApp', -1, EmploymentGroup)
     return id
 end exports('CreateGroup', CreateGroup)
+
+
+RegisterNetEvent('testReset', function()
+    resetJobStatus(GetGroupByMembers(source))
+end)
+RegisterNetEvent("TestGroups", function()
+    local src = source
+    local TestTable = {
+        {name = "Zoo is pretty cute, qb-phone by brazzer is pretty cool and all but i prefer a cool phone which the qb-phone by brazzer is", isDone = true, id = 1},
+        {name = "Pick up garbage1111111111111  1 1 1 111111111111111111111111111111111 1111111111111111111111111111111111 1111111111111111111", isDone = false , id = 2},
+        {name = "Drop off garbage11111111111111 1111111111111111111111111 1111111111111111 11111111111111111111 1111111111111111111", isDone = false , id = 3},
+    }
+
+    setJobStatus((GetGroupByMembers(src)), "garbage", TestTable)
+end)

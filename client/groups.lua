@@ -132,3 +132,11 @@ RegisterNUICallback('jobcenter_CheckPlayerNames', function(data, cb) --employmen
         cb(HasName)
     end, data.id)
 end)
+
+RegisterCommand('groupreset', function()
+    TriggerServerEvent('testReset')
+end, false)
+
+RegisterCommand('testgroup', function()
+    TriggerServerEvent('TestGroups')
+end, false)

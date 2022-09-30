@@ -229,7 +229,6 @@ body {
     width: 100%;
     background: #00000029;
     z-index: 140;
-    border-top: 0.1vh solid #0000003b;
 }
 
 .phone-home-container {
@@ -272,16 +271,17 @@ body {
 
 .phone-application {
     position: relative;
-    height: 4.8vh;
-    width: 4.8vh;
+    height: 5.7vh;
+    width: 5.7vh;
     left: 0vh;
     float: left;
-    margin-left: 1.75vh;
-    margin-top: 1.5vh;
-    border-radius: 1.25vh;
+    margin-left: 0.7vh;
+    margin-top: 1.2vh;
+    border-radius: 1.2vh;
     text-align: center;
     opacity: 0.9;
     transition: .05s;
+    margin-right: 0.5vh;
 }
 
 .phone-application:hover {
@@ -297,11 +297,11 @@ body {
 .phone-home-applications {
     position: absolute;
     width: 100%;
-    bottom: 13vh;
+    bottom: 10vh;
 }
 
 .phone-application > i {
-    line-height: 4.6vh;
+    line-height: 5.6vh;
     font-size: 2vh;
 }
 
