@@ -851,16 +851,17 @@
 
 /* Regular Input Menu */
 
-.phone-menu-body{
+.phone-menu-body {
     display: none;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     width: 100%;
-    height: 200%;
+    height: 98%;
     background-color: rgba(0, 0, 0, 0.624);
     z-index: 700;
+    border-radius: 5px;
 }
 
 .phone-menu-main{
@@ -871,7 +872,7 @@
     padding-top: 10%;
     padding-bottom: 5%;
     width: 73%;
-    background-color: rgb(44, 70, 95);
+    background-color: #1E1E1E;
 }
 
 .phone-menu-text{

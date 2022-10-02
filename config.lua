@@ -30,7 +30,7 @@ Config.MailDuration = 72 -- How many hours to load Mails (72 will load the past 
 
 Config.RepeatTimeout = 4000
 Config.CallRepeats = 10
-Config.AllowWalking = false -- Allow walking and driving with phone out
+Config.AllowWalking = true -- Allow walking and driving with phone out
 
 
 Config.PhoneApplications = {
@@ -125,8 +125,8 @@ Config.PhoneApplications = {
     },
     ["twitter"] = {
         app = "twitter",
-        color = "#151515",
-        color2 = "#161616",
+        color = "#FFFFFF",
+        color2 = "#FFFFFF",
         icon = "fab fa-twitter",
         tooltipText = "Twitter",
         tooltipPos = "top",
@@ -148,26 +148,16 @@ Config.PhoneApplications = {
         slot = 9,
         Alerts = 0,
     },
-    ["debt"] = {
-        app = "debt",
-        color = "#fdfeff",
-        color2 = "#d5e6fa",
+    ["wenmo"] = {
+        app = "wenmo",
+        color = "#FFFFFF",
+        color2 = "#FFFFFF",
         icon = "fas fa-ad",
-        tooltipText = "Debt",
+        tooltipText = "Swish",
+        style = "font-size: 3.5vh";
         job = false,
         blockedjobs = {},
         slot = 10,
-        Alerts = 0,
-    },
-    ["wenmo"] = {
-        app = "wenmo",
-        color = "#151515",
-        color2 = "#161616",
-        icon = "fas fa-ad",
-        tooltipText = "Wenmo",
-        job = false,
-        blockedjobs = {},
-        slot = 11,
         Alerts = 0,
     },
     ["documents"] = {
@@ -179,7 +169,7 @@ Config.PhoneApplications = {
         style = "font-size: 3.3vh";
         job = false,
         blockedjobs = {},
-        slot = 12,
+        slot = 11,
         Alerts = 0,
     },
     ["houses"] = {
@@ -191,79 +181,32 @@ Config.PhoneApplications = {
         style = "font-size: 3vh";
         job = false,
         blockedjobs = {},
-        slot = 13,
-        Alerts = 0,
-    },
-    ["crypto"] = {
-        app = "crypto",
-        color = "#000000",
-        color2 = "#000000",
-        icon = "fab fa-bitcoin",
-        tooltipText = "Crypto",
-        style = "font-size: 2.7vh";
-        job = false,
-        blockedjobs = {},
-        slot = 14,
-        Alerts = 0,
-    },
-    ["jobcenter"] = {
-        app = "jobcenter",
-        color = "#151515",
-        color2 = "#161616",
-        icon = "fas fa-id-badge",
-        tooltipText = "Job Center",
-        style = "color: #78bdfd; font-size: 2.7vh";
-        job = false,
-        blockedjobs = {},
-        slot = 15,
+        slot = 12,
         Alerts = 0,
     },
     ["employment"] = {
         app = "employment",
         color = "#151515",
         color2 = "#161616",
-        icon = "fas fa-ad",
-        tooltipText = "Employment",
+        icon = "fas fa-user-tie",
+        tooltipText = "Företag",
+        style = "font-size: 3vh";
         job = false,
         blockedjobs = {},
-        slot = 16,
-        Alerts = 0,
-    },
-    ["lsbn"] = {
-        app = "lsbn",
-        color = "#151515",
-        color2 = "#161616",
-        icon = "fas fa-ad",
-        tooltipText = "LSBN",
-        job = false,
-        blockedjobs = {},
-        slot = 17,
+        slot = 13,
         Alerts = 0,
     },
     ["taxi"] = {
         app = "taxi",
-        color = "#c6c900",
-        color2 = "#abad00",
+        color = "#F6D106",
+        color2 = "#F6D106",
         icon = "fas fa-briefcase",
         tooltipText = "Taxi",
         tooltipPos = "bottom",
         style = "font-size: 3vh";
         job = false,
         blockedjobs = {},
-        slot = 18,
-        Alerts = 0,
-    },
-    ["casino"] = {
-        app = "casino",
-        color = "#000100",
-        color2 = "#000100",
-        icon = "fas fa-gem",
-        tooltipText = "Betting",
-        tooltipPos = "bottom",
-        style = "font-size: 2.7vh";
-        job = false,
-        blockedjobs = {},
-        slot = 19,
+        slot = 14,
         Alerts = 0,
     },
     ["calculator"] = {
@@ -276,57 +219,32 @@ Config.PhoneApplications = {
         style = "font-size: 2.5vh";
         job = false,
         blockedjobs = {},
-        slot = 20,
+        slot = 15,
         Alerts = 0,
     },
     ["gallery"] = {
         app = "gallery",
-        color = "#189ec0",
-        color2 = "#14819c",
+        color = "#ffffff",
+        color2 = "#ffffff",
         icon = "fas fa-images",
         tooltipText = "Gallery",
         tooltipPos = "bottom",
         style = "font-size: 2.7vh";
         job = false,
         blockedjobs = {},
-        slot = 21,
+        slot = 16,
         Alerts = 0,
     },
     ["racing"] = {
         app = "racing",
-        color = "#353b48",
-        color2 = "#242830",
-        icon = "fas fa-flag-checkered",
-        tooltipText = "Racing",
-        style = "font-size: 3vh";
-        job = false,
-        blockedjobs = {},
-        slot = 22,
-        Alerts = 0,
-    },
-    ["bank"] = {
-        app = "bank",
         color = "#9c88ff",
         color2 = "#8070d5",
-        icon = "fas fa-file-contract",
-        tooltipText = "Invoices",
+        icon = "fas fa-flag-checkered",
+        tooltipText = "Racing",
         style = "font-size: 2.7vh";
         job = false,
         blockedjobs = {},
-        slot = 23,
-        Alerts = 0,
-    },
-    ["gopro"] = {
-        app = "gopro",
-        color = "#008FFF",
-        color2 = "#008FFF",
-        icon = "fas fa-camera",
-        tooltipText = "camera",
-        tooltipPos = "top",
-        style = "padding-right: .08vh; font-size: 3.3vh";
-        job = false,
-        blockedjobs = {},
-        slot = 24,
+        slot = 17,
         Alerts = 0,
     },
     ["group-chats"] = {
@@ -339,18 +257,7 @@ Config.PhoneApplications = {
         style = "padding-right: .08vh; font-size: 3.3vh";
         job = false,
         blockedjobs = {},
-        slot = 25,
-        Alerts = 0,
-    },
-    ["meos"] = {
-        app = "meos",
-        color = "#004682",
-        color2 = "#00325c",
-        icon = "fas fa-ad",
-        tooltipText = "MDT",
-        job = "police",
-        blockedjobs = {},
-        slot = 26,
+        slot = 18,
         Alerts = 0,
     },
 }

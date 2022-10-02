@@ -79,12 +79,12 @@ QB.Phone.Functions.SetupApplications = function(data) {
                 icon = '<img src="./img/apps/Advertisements.png" class="advert-icon">';
             } else if (app.app == "calculator"){
                 icon = '<img src="./img/apps/calcilator.png" class="calc-icon">';
-            } else if (app.app == "employment"){
-                icon = '<img src="./img/apps/employment.png" style="width: 87%;margin-top: 6%;margin-left: -2%;">';
             } else if (app.app == "debt"){
                 icon = '<img src="./img/apps/debt.png">';
             } else if (app.app == "wenmo"){
                 icon = '<img src="./img/apps/wenmo.png" class="calc-icon">';
+            } else if (app.app == "gallery"){
+                icon = '<img src="./img/apps/gallery.png" class="calc-icon">';
             } else if (app.app == "jobcenter"){
                 icon = '<img src="./img/apps/jobcenter.png" class="calc-icon">';
             } else if (app.app == "crypto"){
